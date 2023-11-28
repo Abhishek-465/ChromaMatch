@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+/* Light theme */
+:root {
+    --background-color: #f5f5f5;
+    --text-color: #333;
+  }
+  
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  /* Dark theme */
+  .dark-theme {
+    --background-color: #333;
+    --text-color: #f5f5f5;
+  }
+  #theme-toggle {
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-bottom: 40px;
+  }
+  #ref {
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-left: 30px;
+    margin-bottom: 40px;
+  }
+  img{
+    width:20px;
+    height: 20px;
+  }
+  .row{
+    height: 35px;
+    width: 150px;
+    background-color: black;
+    color: bisque;
+    margin-bottom: 40px;
+    font-family: 'Caveat', cursive;
+    border-radius: 20px;
+    font-size: 22px;
+    text-align: center;
+  }
+  .box{
+    height: 500px;
+    width: 310px;
+    padding: 5px;
+    background-color: black;
+    color: bisque;
+    margin-bottom: 40px;
+    font-family: 'Caveat', cursive;
+    border-radius: 20px;
+    font-size: 22px;
+    text-align: center;
+  }
+  .my{
+    height: 100px;
+  }
+  .adjust{
+    margin-bottom: 30px;
+  }
+  
+
+.container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col{
+    width:40px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(127, 229, 255);
+    margin:4px;
+}
+.screen{
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 18, 223);
+    margin-top: 20px;
+    height: 80px;
+    width: 160px;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    border-radius: 20px;
+    font-size: 25px;
+}
+h2{
+    font-family: 'Caveat', cursive;
+}
+a{
+    text-decoration: none;
+    color: #f5f5f5;
+}

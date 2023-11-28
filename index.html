@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<script>
+    audioElement.play();
+    let beat = new Audio('decidemp3-14575.mp3');
+    function Player(){
+        beat.load();
+        beat.play();
+    }
+    document.getElementById("row").addEventListener("click",()=> Player());
+</script>
+<body>
+    <audio src="simple.mp3" autoplay></audio>
+    <div class="my"></div>
+    <div class="container ">
+        <h2 class="adjust">ChromaMatch</h2>
+        <div class="row" id="row">
+            <a href="main.html">Play</a>
+        </div>
+        <div class="row" id="row">
+            <a href="instruct.html">Help</a>
+        </div>
+        <div class="row" id="row">
+            <a href="">Records</a>
+        </div>
+    </div>
+
+    
+</body>
+</html>
