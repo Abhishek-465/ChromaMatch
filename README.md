@@ -1,6 +1,7 @@
 # ChromaMatch
 Tech Stack: HTML, CSS, and JS. 
 <br>
+<p>Project URL: https://abhishek-465.github.io/ChromaMatch/ </p>
 <h3>Instructions</h3>
 <p>1. A 3x3 grid is drawn.</p>
 <p>2. Player 1 uses red, and Player 2 uses green.</p>
